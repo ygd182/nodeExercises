@@ -1,0 +1,17 @@
+{
+  "name": "node_exercises",
+  "version": "1.0.0",
+  "description": "node exercises",
+  "main": "App.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -u exports -R spec"
+  },
+  "author": "ygd182",
+  "license": "ISC",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
+  },
+  "devDependencies": {}
+}
